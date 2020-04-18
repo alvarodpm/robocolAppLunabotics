@@ -51,6 +51,7 @@ class _ArrowsMovementButtons extends State<ArrowsMovementButtons> {
   @override
   Widget build(BuildContext context) {
     return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         //Listener del botón izquiero
         Listener(
