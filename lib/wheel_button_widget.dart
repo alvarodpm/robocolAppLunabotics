@@ -36,7 +36,7 @@ class _WheelAutoButtonState extends State<WheelAutoButton> {
             children: <Widget>[
               Icon(
                 Icons.sync_problem,
-                size: 30,
+                size: 33,
               ),
             ],
             isSelected: isSelected,
