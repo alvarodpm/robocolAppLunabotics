@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  webview_flutter: ^0.3.20+1
   control_pad: ^1.1.1+1
   flutter:
     sdk: flutter

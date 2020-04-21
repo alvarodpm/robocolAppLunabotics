@@ -1,7 +1,12 @@
+import 'dart:async';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:robocolapplunabotics/webViewContainer.dart';
 
 class HomeScreen extends StatelessWidget {
+  String url =
+      'https://github.com/alvarodpm/robocolAppLunabotics/blob/master/README.md#robocollunaboticsapp';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +26,7 @@ class HomeScreen extends StatelessWidget {
                     children: <Widget>[
                       MaterialButton(
                         color: Colors.black,
-                        splashColor: Colors.green,
+                        splashColor: Colors.yellowAccent,
                         child: Text(
                           'Conectarse al robot',
                           style: TextStyle(
@@ -35,15 +40,17 @@ class HomeScreen extends StatelessWidget {
                       ),
                       MaterialButton(
                         color: Colors.black,
-                        splashColor: Colors.green,
+                        splashColor: Colors.yellowAccent,
                         child: Text(
-                          'Acerca del robot',
+                          'Acerca de la interfaz',
                           style: TextStyle(
                             fontSize: 20,
                             color: Colors.white,
                           ),
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+                          _handleURLButtonPress(context, url);
+                        },
                       ),
                     ],
                   ),
@@ -52,5 +59,10 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
         ));
+  }
+
+  void _handleURLButtonPress(BuildContext context, String url) {
+    Navigator.push(context,
+        MaterialPageRoute(builder: (context) => WebViewContainer(url)));
   }
 }
