@@ -116,12 +116,24 @@ Para crear una aplicación con este framework, Google recomienda usar Android St
 <a href="https://flutter.dev/?gclid=CjwKCAjwkPX0BRBKEiwA7THxiP6-pViqoK8EP5-xIhdTuWfwQN8uOIz6oYA4mgdGGbWbp1nfuEpdVxoCcPEQAvD_BwE&gclsrc=aw.ds" target="_blank" id="4.1.">
 	4.1 Sitio oficial de Flutter
 </a>
-
-<h3 id="4.2.">4.2. Documentación oficial de Flutter</h3>
-<h3 id="4.3.">4.3. Introducción a Flutter</h3>
-<h3 id="4.4.">4.4. Artículos detallados con explicaciones sobre Flutter</h3>
-<h3 id="4.5.">4.5. Sitio oficial de Dart</h3>
-<h3 id="4.6.">4.6. Documentación oficial de Dart</h3>
-<h3 id="4.7.">4.7. Sitio oficial de Android Studio</h3>
-<h3 id="4.8.">4.8. Documentación oficial de Android Studio</h3>
- 
+<a href="https://flutter.dev/docs" target="_blank" id="4.2.">
+	4.2 Documentación oficial de Flutter
+</a>
+<a href="https://www.appbrewery.co/p/intro-to-flutter" target="_blank" id="4.3.">
+	4.3 Introducción a Flutter
+</a>
+<a href="https://medium.com/flutter-community" target="_blank" id="4.4.">
+	4.4 Artículos detallados con explicaciones sobre Flutter
+</a>
+<a href="https://dart.dev/" target="_blank" id="4.5.">
+	4.5 Sitio oficial de Dart
+</a>
+<a href="https://dart.dev/guides" target="_blank" id="4.6.">
+	4.6 Documentación oficial de Dart
+</a>
+<a href="https://developer.android.com/studio" target="_blank" id="4.7.">
+	4.7 Sitio oficial de Android Studio
+</a>
+<a href="https://developer.android.com/docs" target="_blank" id="4.8.">
+	4.8 Documentación oficial de Android Studio
+</a>
