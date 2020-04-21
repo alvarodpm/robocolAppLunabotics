@@ -109,10 +109,19 @@ Para crear una aplicación con este framework, Google recomienda usar Android St
 	Es la primera pantalla que se muestra al abrir la aplicación. En ella se muestra el logo de Robocol y las opciones para conectarse al robot por medio de Bluetooth, o una pestana para obtener más información sobre el la interfaz, que redirige al usuario a la página de GitHub que contiene la documentación del proyecto.
 </p>
 <h3 id="3.2.">3.2. Controlador de avance</h3>
+<p>
+	Este control maneja los movimientos de avance del Rover en cualquier dirección. Se implementó en forma de Joystick para que su manejo sea más sencillo e intuitivo.
+</p>
 <h3 id="3.3.">3.3. Accionador permanente de la rueda excavadora</h3>
+<p>
+	Este es un botón que al accionarlo activa el funcionamiento de la rueda excavadora del Rover, y hace que ésta permanezca activada hasta que se presione el botón nuevamente. El color del botón cambia para hacerle saber al usuario cuándo está activado o desactivado.
+</p>
 <h3 id="3.4.">3.4. Accionador manual de la rueda excavadora</h3>
 <h3 id="3.5.">3.5. Controlador de movimientos de los actuadores lineales</h3>
 <h3 id="3.6.">3.6. Controlador de giro</h3>
+<p>
+	Estos controles tienen el objetivo de hacer rotar al Rover sobre su propio eje, de manera que éste gire hacia la izquierda o derecha, pero no avance.
+</p>
 
 <h2 id="enlaces">4. Enlaces de interés recomendados</h2>
 
