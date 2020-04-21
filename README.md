@@ -23,6 +23,30 @@ Interface for controlling the Robocol robot made on Lunabotics.
                 <li><a href="#2.3.">Android Studio</a></li>
             </ul>
         </li>
+	<li>
+            <a href="#descripcion">Descripción de la interfaz</a>
+            <ul>
+                <li><a href="#3.1.">Pantalla de inicio</a></li>
+                <li><a href="#3.2.">Controlador de avance</a></li>
+                <li><a href="#3.3.">Accionador permanente de la rueda excavadora</a></li>
+		<li><a href="#3.4.">Accionador manual de la rueda excavadora</a></li>
+		<li><a href="#3.5.">Controlador de movimientos de los actuadores lineales</a></li>
+		<li><a href="#3.6.">Controlador de giro</a></li>
+            </ul>
+	</li>
+	<li>
+            <a href="#enlaces">Enlaces de interés recomendados</a>
+            <ul>
+                <li><a href="#4.1.">Sitio oficial de Flutter</a></li>
+                <li><a href="#4.2.">Documentación oficial de Flutter</a></li>
+		<li><a href="#4.3.">Introducción a Flutter</a></li>
+		<li><a href="#4.4.">Artículos detallados con explicaciones sobre Flutter</a></li>
+                <li><a href="#4.5.">Sitio oficial de Dart</a></li>
+		<li><a href="#4.6.">Documentación oficial de Dart</a></li>
+		<li><a href="#4.7.">Sitio oficial de Android Studio</a></li>
+		<li><a href="#4.8.">Documentación oficial de Android Studio</a></li>
+            </ul>
+	</li>
     </ul>
 </div>
 
@@ -77,4 +101,39 @@ Dart es el lenguaje de programación con el que se desarrollan las aplicaciones 
 Android Studio es el entorno de desarrollo integrado (IDE) oficial para el desarrollo de apps para Android, es decir, es el programa en el cual podemos escribir código en Dart y crear nuestras aplicaciones Flutter.  
 
 Para crear una aplicación con este framework, Google recomienda usar Android Studio o Visual Studio Code, un IDE desarrollado por Microsoft. Sin embargo, Android Studio posee características que hacen mucho más sencillo el desarrollo, como mayor facilidad para ejecutar un simulador de un dispositivo Android y probar nuestra aplicación, consejos de optimización del código, estadísticas de uso, entre otras. 
- 
+
+<h2 id="descripcion">3. Descripción de la interfaz</h2>
+
+<h3 id="3.1.">3.1. Pantalla de inicio</h3>
+<h3 id="3.2.">3.2. Controlador de avance</h3>
+<h3 id="3.3.">3.3. Accionador permanente de la rueda excavadora</h3>
+<h3 id="3.4.">3.4. Accionador manual de la rueda excavadora</h3>
+<h3 id="3.5.">3.5. Controlador de movimientos de los actuadores lineales</h3>
+<h3 id="3.6.">3.6. Controlador de giro</h3>
+
+<h2 id="enlaces">4. Enlaces de interés recomendados</h2>
+
+<a href="https://flutter.dev/?gclid=CjwKCAjwkPX0BRBKEiwA7THxiP6-pViqoK8EP5-xIhdTuWfwQN8uOIz6oYA4mgdGGbWbp1nfuEpdVxoCcPEQAvD_BwE&gclsrc=aw.ds" target="_blank" id="4.1.">
+	4.1 Sitio oficial de Flutter
+</a><br>
+<a href="https://flutter.dev/docs" target="_blank" id="4.2.">
+	4.2 Documentación oficial de Flutter
+</a><br>
+<a href="https://www.appbrewery.co/p/intro-to-flutter" target="_blank" id="4.3.">
+	4.3 Introducción a Flutter
+</a><br>
+<a href="https://medium.com/flutter-community" target="_blank" id="4.4.">
+	4.4 Artículos detallados con explicaciones sobre Flutter
+</a><br>
+<a href="https://dart.dev/" target="_blank" id="4.5.">
+	4.5 Sitio oficial de Dart
+</a><br>
+<a href="https://dart.dev/guides" target="_blank" id="4.6.">
+	4.6 Documentación oficial de Dart
+</a><br>
+<a href="https://developer.android.com/studio" target="_blank" id="4.7.">
+	4.7 Sitio oficial de Android Studio
+</a><br>
+<a href="https://developer.android.com/docs" target="_blank" id="4.8.">
+	4.8 Documentación oficial de Android Studio
+</a>
