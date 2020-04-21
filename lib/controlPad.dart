@@ -13,6 +13,7 @@ class ControlPad extends StatelessWidget {
       DeviceOrientation.landscapeRight,
     ]);
     return Scaffold(
+      backgroundColor: Color.fromRGBO(0, 10, 18, 1),
       body: SafeArea(
         child: Row(
           children: <Widget>[

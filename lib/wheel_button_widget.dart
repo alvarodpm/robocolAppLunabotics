@@ -23,30 +23,32 @@ class _WheelAutoButtonState extends State<WheelAutoButton> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         SizedBox(
-          height: 70,
-          child: button = ToggleButtons(
-            selectedColor: Colors.greenAccent,
-            fillColor: Colors.blueGrey,
-            highlightColor: Colors.greenAccent,
-            splashColor: Colors.greenAccent,
-            borderColor: Colors.black,
-            selectedBorderColor: Colors.greenAccent,
-            disabledColor: Colors.blueGrey,
-            borderWidth: 3,
-            children: <Widget>[
-              Icon(
-                Icons.sync_problem,
-                size: 33,
+            height: 70,
+            child: Container(
+              color: Colors.blueGrey,
+              child: button = ToggleButtons(
+                disabledColor: Colors.blueGrey,
+                selectedColor: Colors.greenAccent,
+                fillColor: Colors.blueGrey,
+                highlightColor: Colors.greenAccent,
+                splashColor: Colors.greenAccent,
+                borderColor: Colors.black,
+                selectedBorderColor: Colors.greenAccent,
+                borderWidth: 3,
+                children: <Widget>[
+                  Icon(
+                    Icons.sync_problem,
+                    size: 33,
+                  ),
+                ],
+                isSelected: isSelected,
+                onPressed: (int index) {
+                  setState(() {
+                    isSelected[index] = !isSelected[index];
+                  });
+                },
               ),
-            ],
-            isSelected: isSelected,
-            onPressed: (int index) {
-              setState(() {
-                isSelected[index] = !isSelected[index];
-              });
-            },
-          ),
-        )
+            ))
       ],
     );
   }
