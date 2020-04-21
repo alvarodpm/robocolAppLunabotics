@@ -23,6 +23,17 @@ Interface for controlling the Robocol robot made on Lunabotics.
                 <li><a href="#2.3.">Android Studio</a></li>
             </ul>
         </li>
+	<li>
+            <a href="#descripcion">Descripción de la interfaz</a>
+            <ul>
+                <li><a href="#3.1.">Pantalla de inicio</a></li>
+                <li><a href="#3.2.">Controlador de avance</a></li>
+                <li><a href="#3.3.">Accionador permanente de la rueda excavadora</a></li>
+		<li><a href="#3.4.">Accionador manual de la rueda excavadora</a></li>
+		<li><a href="#3.5.">Controlador de movimientos de los actuadores lineales</a></li>
+		<li><a href="#3.6.">Controlador de giro</a></li>
+            </ul>
+	</li>
     </ul>
 </div>
 
@@ -77,4 +88,13 @@ Dart es el lenguaje de programación con el que se desarrollan las aplicaciones 
 Android Studio es el entorno de desarrollo integrado (IDE) oficial para el desarrollo de apps para Android, es decir, es el programa en el cual podemos escribir código en Dart y crear nuestras aplicaciones Flutter.  
 
 Para crear una aplicación con este framework, Google recomienda usar Android Studio o Visual Studio Code, un IDE desarrollado por Microsoft. Sin embargo, Android Studio posee características que hacen mucho más sencillo el desarrollo, como mayor facilidad para ejecutar un simulador de un dispositivo Android y probar nuestra aplicación, consejos de optimización del código, estadísticas de uso, entre otras. 
+
+<h2 id="descripcion">3. Descripción de la interfaz</h2>
+
+<h3 id="3.1.">3.1. Pantalla de inicio</h3>
+<h3 id="3.2.">3.2. Controlador de avance</h3>
+<h3 id="3.3.">3.3. Accionador permanente de la rueda excavadora</h3>
+<h3 id="3.4.">3.4. Accionador manual de la rueda excavadora</h3>
+<h3 id="3.5.">3.5. Controlador de movimientos de los actuadores lineales</h3>
+<h3 id="3.6.">3.6. Controlador de giro</h3>
  
