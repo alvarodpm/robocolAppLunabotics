@@ -105,6 +105,9 @@ Para crear una aplicación con este framework, Google recomienda usar Android St
 <h2 id="descripcion">3. Descripción de la interfaz</h2>
 
 <h3 id="3.1.">3.1. Pantalla de inicio</h3>
+<p>
+	Es la primera pantalla que se muestra al abrir la aplicación. En ella se muestra el logo de Robocol y las opciones para conectarse al robot por medio de Bluetooth, o una pestana para obtener más información sobre el la interfaz, que redirige al usuario a la página de GitHub que contiene la documentación del proyecto.
+</p>
 <h3 id="3.2.">3.2. Controlador de avance</h3>
 <h3 id="3.3.">3.3. Accionador permanente de la rueda excavadora</h3>
 <h3 id="3.4.">3.4. Accionador manual de la rueda excavadora</h3>
