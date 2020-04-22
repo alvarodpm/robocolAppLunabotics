@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:robocolapplunabotics/manual_wheel_button_widget.dart';
 import 'package:robocolapplunabotics/rotate_buttons_widget.dart';
 import 'package:robocolapplunabotics/auto_wheel_button_widget.dart';
+import 'package:robocolapplunabotics/slider_widget.dart';
 
 class ControlPad extends StatelessWidget {
   @override
@@ -24,7 +25,7 @@ class ControlPad extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
                   Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding: const EdgeInsets.fromLTRB(8, 8, 8, 100),
                     child: JoystickView(),
                   ),
                 ],
@@ -50,8 +51,12 @@ class ControlPad extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
+                  RotatedBox(
+                    quarterTurns: 3,
+                    child: SliderActuadores(),
+                  ),
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(0, 8, 0, 30),
+                    padding: const EdgeInsets.fromLTRB(0, 8, 0, 90),
                     child: ArrowsMovementButtons(),
                   ),
                 ],
