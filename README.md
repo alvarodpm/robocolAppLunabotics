@@ -1,7 +1,7 @@
 <h1>robocolLunaboticsApp</h1>
 
 
-Interface for controlling the Robocol robot made on Lunabotics.
+Interfaz para controlar el robot de Robocol hecho en Lunabotics.
 
 <h1>Documentación Interfaz – Lunabotics</h1>
 
@@ -117,7 +117,13 @@ Para crear una aplicación con este framework, Google recomienda usar Android St
 	Este es un botón que al accionarlo activa el funcionamiento de la rueda excavadora del Rover, y hace que ésta permanezca activada hasta que se presione el botón nuevamente. El color del botón cambia para hacerle saber al usuario cuándo está activado o desactivado.
 </p>
 <h3 id="3.4.">3.4. Accionador manual de la rueda excavadora</h3>
+<p>
+	Este es un botón que al accionarlo activa el funcionamiento de la rueda excavadora del Rover mientras el botón se mantenga presionado. Es decir, al dejar de presionar el botón la rueda se detendrá. El color del botón cambia para hacerle saber al usuario cuándo está activado o desactivado.
+</p>
 <h3 id="3.5.">3.5. Controlador de movimientos de los actuadores lineales</h3>
+<p>
+	Estos botones se encargan de manejar el movimiento de los actuadores lineales, logrando que se muevan hacia arriba o hacia abajo al presionar el botón respectivo. Cuando el botón se deje de presionar, los actuadores se detendrán.
+</p>
 <h3 id="3.6.">3.6. Controlador de giro</h3>
 <p>
 	Estos controles tienen el objetivo de hacer rotar al Rover sobre su propio eje, de manera que éste gire hacia la izquierda o derecha, pero no avance.
