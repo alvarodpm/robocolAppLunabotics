@@ -56,7 +56,7 @@ class ControlPad extends StatelessWidget {
                     child: SliderActuadores(),
                   ),
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(0, 8, 0, 90),
+                    padding: const EdgeInsets.fromLTRB(0, 8, 0, 88),
                     child: ArrowsMovementButtons(),
                   ),
                 ],
