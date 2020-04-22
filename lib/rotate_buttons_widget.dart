@@ -29,7 +29,7 @@ class _ArrowsMovementButtons extends State<ArrowsMovementButtons> {
   //Botón izquierdo
   RaisedButton leftButton = new RaisedButton(
     onPressed: () {},
-    splashColor: Colors.transparent,
+    splashColor: Colors.greenAccent,
     color: Colors.blueGrey,
     child: new Icon(
       Icons.arrow_back_ios,

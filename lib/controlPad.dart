@@ -2,8 +2,9 @@ import 'package:control_pad/control_pad.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:robocolapplunabotics/arrows_movement_buttons_widget.dart';
-import 'package:robocolapplunabotics/wheel_button_widget.dart';
+import 'package:robocolapplunabotics/manual_wheel_button_widget.dart';
+import 'package:robocolapplunabotics/rotate_buttons_widget.dart';
+import 'package:robocolapplunabotics/auto_wheel_button_widget.dart';
 
 class ControlPad extends StatelessWidget {
   @override
@@ -35,6 +36,10 @@ class ControlPad extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
+                  WheelManualButton(),
+                  SizedBox(
+                    height: 20,
+                  ),
                   WheelAutoButton(),
                 ],
               ),
@@ -46,7 +51,7 @@ class ControlPad extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(0, 8, 0, 8),
+                    padding: const EdgeInsets.fromLTRB(0, 8, 0, 30),
                     child: ArrowsMovementButtons(),
                   ),
                 ],
